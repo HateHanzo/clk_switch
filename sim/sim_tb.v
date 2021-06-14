@@ -51,8 +51,11 @@ initial begin
 #1 rst_n = 1'b1 ;
 
   selb = 0 ;
-# 1000 ;
+# 200 ;
   selb = 1 ;
+# 200 ;
+  selb = 0 ;
+
 
   # 10000;
 $finish  ;//for stop
